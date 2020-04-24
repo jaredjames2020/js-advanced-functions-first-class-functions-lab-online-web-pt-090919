@@ -13,4 +13,4 @@ const createFareMultipler = function(number) {
   return function(fare) {
     return fare * number;
   };
-}
+};
