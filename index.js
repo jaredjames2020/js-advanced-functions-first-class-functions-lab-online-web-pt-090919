@@ -1,4 +1,4 @@
 // Code your solution in this file!
-  const returnfirstTwoDrivers = drivers.filter(function(driver, index){
-      return console.log(index < 2);
-  });
+ const firstTwoDrivers = function returnFirstTwoDrivers(array){
+    return array.filter(function(driver, index){ return index < 2;});
+  };
