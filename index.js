@@ -1,4 +1,4 @@
 // Code your solution in this file!
-const raceCarDrivers = returnFirstTwoDrivers(driver){
+const driver = function returnFirstTwoDrivers(){
   return driver.map(carDriver => console.log(carDriver));
-}
+  };
