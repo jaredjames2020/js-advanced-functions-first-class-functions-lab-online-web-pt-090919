@@ -1,4 +1,4 @@
 // Code your solution in this file!
-const driver = function returnFirstTwoDrivers(){
-  return driver.map(carDriver => console.log(carDriver));
-  };
+  const firstTwoDrivers = drivers.filter(function(driver, index){
+      return index < 2;
+  });
