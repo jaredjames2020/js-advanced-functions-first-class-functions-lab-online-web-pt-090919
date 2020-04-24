@@ -4,5 +4,5 @@
 };
 
 const returnLastTwoDrivers = function(array) {
-    return array.slice(2,4)
+    return array.slice(2,4);
 };
